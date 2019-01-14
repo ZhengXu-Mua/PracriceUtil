@@ -64,7 +64,7 @@ public class HttpRequest {
     }    
 
     public static void main(String[] args){
-        String s=HttpRequest.sendPost("http://test1.sendinfo.com.cn/zybdata/prodata/getStatInfo.htm", "req_data={\"beginTime\":\"2018-09-01 00:00:00\",\"endTime\":\"2018-09-05 00:00:00\",\"groupCode\":\"LR9bmhLZIt\",\"sign\":\"a635f8a3410774d4b9349722f7527b5e\",\"appCode\":\"2016081700000041\"}");
+        String s=HttpRequest.sendPost("", ""}");
         System.out.println(s);
     }
 }
